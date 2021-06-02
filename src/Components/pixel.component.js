@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pixel = ({ r, g, b }) => {
+const Pixel = ({ rgb: { r, g, b } }) => {
   return (
     <div
       className='pixel'
