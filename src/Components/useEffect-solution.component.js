@@ -20,6 +20,7 @@ const UseEffectSolution = () => {
         })
       )
     );
+
     setRGBValues(list);
   }, []);
 
@@ -29,7 +30,7 @@ const UseEffectSolution = () => {
 
   return (
     <>
-      <div className='heading'>Randomised Solution</div>
+      <div className='heading'>Utilizing useEffect to load Solution</div>
       <button onClick={load}>Load this option</button>
       <div className='picture-container'>
         {loading &&

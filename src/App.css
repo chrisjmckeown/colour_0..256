@@ -28,6 +28,10 @@ body {
   display: flex;
   flex-flow: row wrap;
   border: 1px solid black;
+  transition: transform 0.2s;
+}
+.picture-container:hover {
+  transform: scale(2);
 }
 
 .pixel {

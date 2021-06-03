@@ -3,6 +3,7 @@ import './App.css';
 import BasicSolution from './Components/basic-solution.component';
 import UseEffectSolution from './Components/useEffect-solution.component';
 import FileInputSolution from './Components/file-input-solution.component';
+import SortSolution from './Components/sort-solution.component';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <BasicSolution />
         <UseEffectSolution />
         <FileInputSolution />
+        <SortSolution />
       </div>
     </>
   );
